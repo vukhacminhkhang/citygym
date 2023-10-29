@@ -1,0 +1,246 @@
+.navbar {
+  color: red;
+}
+.navbar h2 img{
+  width: 300px;
+  height:100px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  border-style: outset;
+}
+.nav-section {
+  display: flex;
+  gap: 50px;
+}
+.nav-section a {
+  color: red;
+  display: flex;
+  align-items: center;
+}
+.nav-section button {
+  background-color: red;
+  color: white;
+  font-size: 20px;
+}
+img {
+  width: 100%;
+  height: 650px;
+  border-radius: 12px;
+}
+.nav-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.ba-cai-hinh img {
+  width: 350px;
+  height: 300px;
+  gap: 70px;
+}
+.cau-chuyen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hoi-vien {
+  background-image: url(./news-banner.jpg);
+  display: flex;
+  justify-content: center;
+}
+.hoi-vien-mot p {
+  width: 350px;
+}
+.hoi-vien-hai p {
+  width: 350px;
+}
+.hoi-vien-ba p {
+  width: 350px;
+}
+.chua-ba-hinh {
+  display: flex;
+  gap: 70px;
+  background: white;
+  width: 90%;
+  height: 90%;
+}
+.the-mot {
+  display: flex;
+  gap: 70px;
+}
+.the-mot h3 {
+  width: 50%;
+}
+img {
+  width: 100%;
+}
+.c-l-b {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cac-clb img {
+  width: 350px;
+  height: 300px;
+}
+.cac-clb h3 {
+  width: 350px;
+}
+.cac-clb h2 {
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  color: red;
+}
+.cac-clb-mot {
+  display: flex;
+  justify-content: center;
+
+  gap: 70px;
+}
+.cac-clb-hai {
+  display: flex;
+  justify-content: center;
+
+  gap: 70px;
+}
+.cac-clb-ba {
+  display: flex;
+  justify-content: center;
+
+  gap: 70px;
+}
+.dich-vu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cac-dich-vu h2 {
+  width: 350px;
+  display: flex;
+  justify-content: center;
+}
+.cac-dich-vu img {
+  width: 350px;
+  height: 300px;
+}
+.cac-dich-vu-mot {
+  display: flex;
+  justify-content: center;
+
+  gap: 70px;
+}
+
+.cac-dich-vu-hai {
+  display: flex;
+  justify-content: center;
+
+  gap: 70px;
+}
+.cac-dich-vu-XY h2 {
+  width: 350px;
+
+  color: red;
+}
+.cac-dich-vu-XY h3 {
+  width: 350px;
+}
+.cac-dich-vu-XY img {
+  width: 350px;
+  height: 300px;
+}
+.cac-dich-vu-X {
+  display: flex;
+  justify-content: center;
+
+  gap: 70px;
+}
+.cac-dich-vu-Y {
+  display: flex;
+  justify-content: center;
+
+  gap: 70px;
+}
+.lich-hoc h2 {
+  color: red;
+}
+.footer {
+  display: flex;
+  gap: 70px;
+  color: white;
+  background-color: red;
+}
+.footer img {
+  width: 15px;
+  height: 15px;
+}
+.m-x-h img {
+  width: 28px;
+  height: 28px;
+}
+.cac-clb h3 img {
+  width: 15px;
+  height: 15px;
+}
+.footer a {
+  color: white;
+}
+.form-label {
+  line-height: 32px;
+  color: #8f91b0;
+}
+
+.login-button {
+  background-color: #ee5757;
+  color: white;
+  border-radius: 12px;
+  border: none;
+  width: 250px;
+  height: 43.073px;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  box-shadow: 0 9px #999;
+}
+.login-button :hover {
+  background-color: #ee5757;
+  color: white;
+}
+.button:active {
+  background-color: #58257b;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.dang-ki {
+  color: red;
+}
+.dang-ki h1 {
+  display: flex;
+  justify-content: center;
+}
+.form-label {
+  border-radius: 20px;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 13px 30px;
+  width: 336.691px;
+  height: 43.073px;
+  flex-shrink: 0;
+  backdrop-filter: blur(1.435782790184021px);
+}
+.navbar h1 {
+  display: flex;
+  justify-content: center;
+}
+.dang-ki img {
+  width: 100%;
+  height: 550px;
+}
