@@ -1,17 +1,30 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Javascript lesson1</title>
-</head>
-<style type="text/css" media="screen">
-	body{
-		text-align: center;
-	}
-</style>
-<body>
-	<h3>Click vào button đi ông tướng</h3>
-	<button type="button" onclick="alert('helloworld')">click</button>
-</body>
-</html>
+const submit = document.getElementById("submit");
+submit.addEventListener("click", (e) => {
+  e.preventDefault()
+  const productname = document.getElementById("exampleInputProducts1").value
+  const Price = document.getElementById("exampleInputPrice1").value
+  const Img = document.getElementById("exampleInputImg1").value
+  var products = JSON.parse(localStorage.getItem("products"))
+  // console.log(Sanpham);
+  // console.log(Price);
+  // console.log(Img);
+  var product = {
+    productname: productname,
+  Price: Price,
+  Img: Img,
+  }
+  if (products == null) {
+    products = [products];
+    localStorage.setItem("products", products);
+  } else {
+    products.push(product);
+    localStorage.setItem("products", products);
+  }
+  localStorage.setItem("product_info", JSON.stringify(product))
+})
+
+submit.addEventListener("click", (e) => {
+  e.preventDefault()
+  var product_info = JSON.parse(localStorage.getItem("product_info"))
+  console.log(product_info);
+})
